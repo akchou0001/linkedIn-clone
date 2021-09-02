@@ -1,0 +1,29 @@
+.headerMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  color: gray;
+  cursor: pointer;
+}
+.headerMenu:hover {
+  color: black;
+}
+.headerMenu__title {
+  font-size: 12px;
+  font-weight: 400;
+}
+.headerMenu__icon {
+  object-fit: contain;
+  height: 25px !important;
+  width: 25px !important;
+}
+@media only screen and (max-width: 900px) {
+  .headerMenu__title {
+    display: none;
+  }
+  .headerMenu__icon {
+    height: 35px !important;
+    width: 35px !important;
+  }
+}

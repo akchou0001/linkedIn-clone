@@ -1,0 +1,15 @@
+.home {
+  background-color: #f3f2ef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home_body {
+  display: flex;
+  width: 95%;
+}
+@media only screen and (max-width: 900px) {
+  .home_body {
+    flex-direction: column;
+  }
+}

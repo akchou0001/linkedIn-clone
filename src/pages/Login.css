@@ -1,0 +1,6 @@
+.logo > img {
+  object-fit: contain;
+  height: 170px;
+  margin-left: 70px;
+  margin-bottom: -50px;
+}

@@ -1,0 +1,72 @@
+.sidebar_right {
+  position: sticky;
+  top: 80px;
+  flex: 0.2;
+  display: flex;
+  flex-direction: column;
+}
+.widget {
+  position: sticky;
+  margin-top: 15px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  height: fit-content;
+  padding-bottom: 10px;
+}
+.widget_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.widget_header > h2 {
+  font-size: 16px;
+  font-weight: 400;
+}
+@media only screen and (max-width: 900px) {
+  .widget {
+    display: none;
+  }
+}
+.widget_article {
+  display: flex;
+  padding: 10px;
+  cursor: pointer;
+}
+.widget_article:hover {
+  background-color: whitesmoke;
+}
+.widget_articleLeft {
+  color: #0177b7;
+  margin-right: 5px;
+}
+.widget_articleLeft > .MuiSvgIcon-root {
+  font-size: 15px;
+}
+.widget_articleRight {
+  flex: 1;
+}
+.widget_articleRight > h4 {
+  font-size: 14px;
+}
+.widget_articleRight > p {
+  font-size: 12px;
+  color: gray;
+}
+.footer {
+  position: sticky;
+  height: fit-content;
+  padding-bottom: 10px;
+  margin-top: 15px;
+  font-size: smaller;
+  color: gray;
+}
+.footer > Link {
+  color: gray;
+}
+.lines {
+  display: flex;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
