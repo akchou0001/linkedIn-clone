@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
-Hosted at https://linkedin-clone01.herokuapp.com/
+Hosted at https://linked-in-clone-akchou0001.vercel.app/
 
 ## Available Scripts
 
